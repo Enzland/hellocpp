@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Blah.h
+
+/home/peter/src/hellocpp/main.cpp
+iostream
+-
+vector
+-
+string
+-
+Blah.h
+/home/peter/src/hellocpp/Blah.h
+
+/home/peter/src/hellocpp/src/Blah.cpp
+Blah.h
+/home/peter/src/hellocpp/src/Blah.h
+iostream
+-
+
