@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include "Blah.h"
+
 
 using namespace std;
 
@@ -13,4 +15,6 @@ int main()
         cout << word << " ";
     }
     cout << endl;
+    Blah().boo();
+
 }
